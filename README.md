@@ -11,4 +11,4 @@ In addition the sensor appears to be quite sensitive as number are changing dras
 
 For a more thorough explanation, please load the HTML file attached to this. There are animations and in-depth explanations for this.
 
-The example shown shows how to rescale a range as well as how to create a rolling average!
+
