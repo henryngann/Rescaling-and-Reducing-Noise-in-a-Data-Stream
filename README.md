@@ -33,6 +33,3 @@ An average is typically denoted as a sum of data over the count of data points. 
 
 ## Example
 Our 10-point smoother is just an average of 10 points if we break down the average process into 2 pieces, we are summing over the data and then dividing. But division is just an inverted multiplication, so by dividing by 10 we are actually multiplying by 1/10 (0.1). So if we have a set of data, x, of length 10, it needs to be in a row vector or matrix with just 1 row. Then we use our other vector, y, of length 10, who’s values are all 0.1 and it needs to be a column vector or matrix with just 1 column. If we use matrix multiplication and sum it up we create a dot product, which will generate our average. For more on dot products see this website (https://mathinsight.org/dot_product_examples).
-
-## Generated Datasets
-So you can check your work if you’re using another language like Python or C, I’ve included all of the data and generated data in an object known as a dataframe. Think of the dataframe like an excel file. Check the files included in the repository.
